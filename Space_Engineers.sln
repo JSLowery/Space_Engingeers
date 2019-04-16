@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.539
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ResourceManager", "IngameScript1\ResourceManager.csproj", "{7550D5A9-E607-4B02-829E-A965BD9F62CA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DistFinder", "DistFinder\DistFinder.csproj", "{5AED08FC-0BC7-4495-924E-C527A0579CB9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7550D5A9-E607-4B02-829E-A965BD9F62CA}.Debug|x64.ActiveCfg = Debug|x64
+		{7550D5A9-E607-4B02-829E-A965BD9F62CA}.Debug|x64.Build.0 = Debug|x64
+		{5AED08FC-0BC7-4495-924E-C527A0579CB9}.Debug|x64.ActiveCfg = Debug|x64
+		{5AED08FC-0BC7-4495-924E-C527A0579CB9}.Debug|x64.Build.0 = Debug|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7EE84CF0-32C1-49B6-9538-BDDDBCF8903B}
+	EndGlobalSection
+EndGlobal
