@@ -26,3 +26,4 @@ E:\Users\Jeremy\source\repos\IngameScript1\IngameScript1\obj\x64\Debug\ResourceM
 E:\Users\Jeremy\source\repos\IngameScript1\IngameScript1\obj\x64\Debug\ResourceManager.csproj.CopyComplete
 E:\Users\Jeremy\source\repos\IngameScript1\IngameScript1\obj\x64\Debug\IngameScript1.exe
 E:\Users\Jeremy\source\repos\IngameScript1\IngameScript1\obj\x64\Debug\IngameScript1.pdb
+E:\Users\Jeremy\source\repos\IngameScript1\IngameScript1\obj\x64\Debug\ResourceManager.csprojAssemblyReference.cache

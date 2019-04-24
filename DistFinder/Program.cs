@@ -81,6 +81,7 @@ namespace IngameScript
                         lcd = (IMyTextPanel)block;
                     if (block is IMyTextPanel && block.CustomName == "Range Display")
                         rangeDisp = (IMyTextPanel)block;
+                    
                 }
                 camera.EnableRaycast = true;
             }

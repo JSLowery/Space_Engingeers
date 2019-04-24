@@ -106,16 +106,19 @@ namespace IngameScript
                 if (display.CustomName.Contains("Ore Display"))
                 {
                     output = "Ores\n" + string.Join("\n", Ores.Select(kv => String.Format("{0,-30} - {1, 10}", kv.Key.Split(new Char[] { '/' }, StringSplitOptions.RemoveEmptyEntries)[1], kv.Value)).ToArray());
+                    display.WriteText(output);
                 }
                 else if (display.CustomName.Contains("Ingot Display"))
                 {
                     output = "Ingots\n" + string.Join("\n", Ingots.Select(kv => String.Format("{0,-30} - {1, 10}", kv.Key.Split(new Char[] { '/' }, StringSplitOptions.RemoveEmptyEntries)[1], kv.Value)).ToArray());
+                    display.WriteText(output);
                 }
                 else if (display.CustomName.Contains("Components Display"))
                 {
                     output = "Components\n" + string.Join("\n", Components.Select(kv => String.Format("{0,-30} - {1, 10}", kv.Key.Split(new Char[] { '/' }, StringSplitOptions.RemoveEmptyEntries)[1], kv.Value)).ToArray());
+                    display.WriteText(output);
                 }
-                display.WriteText(output);
+                
             }
             //display = "Ores\n" + string.Join("\n", Ores.Select(kv => String.Format("{0,-30} - {1, 10}", kv.Key.Split(new Char[] { '/' }, StringSplitOptions.RemoveEmptyEntries)[1], kv.Value)).ToArray());
             //panel.WritePublicText(display);
